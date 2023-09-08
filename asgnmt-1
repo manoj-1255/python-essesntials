@@ -1,0 +1,8 @@
+a = float(input("Enter the first number (a): "))
+b = float(input("Enter the second number (b): "))
+floordivision = a // b
+a_power_b = a ** b
+check = a == b
+print("Floor Division Result:", floordivision)
+print("Exponentiation Result:",a_power_b)
+print("Are a and b equal?", check)
